@@ -1,0 +1,63 @@
+## Generated directories
+**/[Bb]inaries/*  
+**/[Bb]uild/*  
+**/[Dd]erivedDataCache/*  
+**/[Ii]ntermediate/*  
+**/[Ll]ogs/*  
+**/[Ss]aved/*  
+
+## Visual Studio Code files
+.vscode/*  
+
+## Visual studio files
+.vs/  
+*.VC.db  
+*.sln  
+*.suo  
+*.opensdf  
+*.sdf  
+*.VC.opendb  
+*.csproj  
+*.vcxproj  
+*.vcxproj.filters  
+*.vcxproj.user  
+
+## Xcode files
+*.xcodeproj  
+*.xcworkspace  
+
+## Rider files
+**/.idea/*  
+
+## Compiled object files
+*.slo  
+*.lo  
+*.o  
+*.obj  
+
+## Precompiled header files
+*.gch  
+*.pch  
+
+## Compiled dynamic libraries
+*.so  
+*.dylib  
+*.dll  
+
+## Fortran nodule files
+*.mod  
+
+## Compiled static libraries
+*.lai  
+*.la  
+*.a  
+*.lib  
+
+## Build files
+*.exe  
+*.out  
+*.app  
+*.ipa  
+
+## Built level files
+*_BuiltData.uasset  

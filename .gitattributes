@@ -1,0 +1,89 @@
+## Core files
+*               text=auto eol=lf  
+
+*.cs            diff=csharp  
+*.sln           merge=union  
+*.csproj        merge=union  
+*.vbproj        merge=union  
+*.fsproj        merge=union  
+*.dbproj        merge=union  
+
+*.doc           diff=astextplain  
+*.DOC           diff=astextplain  
+*.docx          diff=astextplain  
+*.DOCX          diff=astextplain  
+*.dot           diff=astextplain  
+*.DOT           diff=astextplain  
+*.pdf           diff=astextplain  
+*.PDF           diff=astextplain  
+*.rtf           diff=astextplain  
+*.RTF           diff=astextplain  
+
+*.lib           binary  
+*.dll           binary  
+*.exe           binary  
+*.apk           binary  
+*.ipa           binary  
+*.so            binary  
+*.dylib         binary  
+
+*.ico           binary  
+*.jpg           binary  
+*.png           binary  
+*.gif           binary  
+*.ttf           binary  
+*.tza           binary  
+
+*.cs            text diff=csharp  
+*.meta          text  
+*.prefab        text  
+*.asset         text  
+*.asmdef        text  
+*.sh            text  
+*.cc            text  
+*.cpp           text  
+*.h             text  
+*.json          text  
+*.md            text  
+*.txt           text  
+*.bat           text   eol=crlf  
+*.c             text  
+*.cxx           text  
+*.o             text  
+*.a             text  
+*.cab           text  
+*.cat           text  
+*.sys           text  
+*.in            text  
+*.am            text  
+*.m4            text  
+*.ac            text  
+*.proj          text  
+*.sln           text  
+Makefile        text  
+*.cs            text  
+*.py            text  
+*.ini           text  
+*.schema        text  
+*.vb            text  
+*.hxx           text  
+*.rb            text  
+*.java          text  
+*.html          text  
+*.htm           text  
+*.css           text  
+*.scss          text  
+*.sass          text  
+*.less          text  
+*.js            text  
+*.lisp          text  
+*.clj           text  
+*.sql           text  
+*.php           text  
+*.lua           text  
+*.m             text  
+*.asm           text  
+*.erl           text  
+*.fs            text  
+*.fsx           text  
+*.hs            text  
