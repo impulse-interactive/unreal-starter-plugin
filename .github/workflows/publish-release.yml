@@ -1,0 +1,43 @@
+name: publish-release
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+jobs:
+  Publish:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Parse Config
+        shell: bash
+        run: |
+          pip install -U niet
+          bash .github/scripts/parse-config.sh
+
+      - name: Create Tag
+        if: env.release_exists == 'false'
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: "refs/tags/${{ env.release_version }}",
+              sha: context.sha
+            })
+
+      - name: Publish Release
+        if: env.release_exists == 'false'
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ env.release_version }}
+          name: ${{ env.release_name }}
+          bodyFile: ${{ env.release_changelog }}
+          draft: ${{ env.release_isdraft }}
+          prerelease: ${{ env.release_isprerelease }}
