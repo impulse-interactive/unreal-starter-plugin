@@ -23,6 +23,7 @@
 <p align="center">
     <br/>
     <a href="#license"><img alt="license link" src="https://img.shields.io/badge/-LICENSE-lightgrey?style=for-the-badge"/></a>
+    <a href="#contributing"><img alt="contributing guide link" src="https://img.shields.io/badge/-CONTRIBUTING-lightgrey?style=for-the-badge"/></a>
     <br/>
 </p>
 
@@ -32,4 +33,12 @@
 
 <p>
     The contents of this <a href="https://github.com/impulse-interactive/unreal-starter-plugin/">repository</a> are free under the terms of the <a href="https://www.unrealengine.com/eula/"><b>Unreal® Engine End User License Agreement</b></a>.
+</p>
+
+<h2>
+    <a id="contributing"> ✍️ Contributing</a>
+</h2>
+
+<p>
+    This project will not be accepting any public contributions.
 </p>
