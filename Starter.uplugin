@@ -1,7 +1,7 @@
 {
     "FileVersion": 3,
     "Version": 1,
-    "VersionName": "0.2.0",
+    "VersionName": "1.0.0",
     "FriendlyName": "Starter",
     "Description": "Starter Content plugin for projects using Unreal Engine, developed by Epic Games.",
     "Category": "Content",
@@ -11,7 +11,7 @@
     "SupportURL": "https://issues.unrealengine.com/",
     "EnabledByDefault": true,
     "CanContainContent": true,
-    "IsBetaVersion": true,
+    "IsBetaVersion": false,
     "IsExperimentalVersion": false,
     "Installed": false
 }
