@@ -1,6 +1,6 @@
 config:
-  version: 0.1.0
-  name: 0.1.0
+  version: 0.2.0
+  name: 0.2.0
   changelog: .github/release/CHANGELOG.md
   isdraft: "false"
   isprerelease: "true"
